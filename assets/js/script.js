@@ -17,8 +17,8 @@ showTimeBlockHours();
 
 function showTimeBlockHours() { 
    for (let i = 0; i < tbHourLabel.length; i++) {
-    var textField = localStorage.getItem(i+11);
-    if (textField === null) {
+    var tbHourField = localStorage.getItem(i+11);
+    if (tbHourField === null) {
 
 //  3 - Used "append" in the timeblock container based off the way the password elements appended in the first JS exercise.
 //
