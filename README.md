@@ -4,25 +4,18 @@
 
 
 ## Why?
-At-A-Glance information. Simple click interface. We need to simplify our lives and one of the easiest ways to accomplish that goal is to take our schedules out of our heads and put them down on screens.
+At-A-Glance information. Simple click interface. We need to simplify our lives and one of the easiest ways to accomplish that goal is to take our schedules out of our heads and put them down on our screens.
 
 
 ## What?
-This release helps you to create an unpatterned (therefore, unpredictable) password while allowing you to define what criteria to apply to it. These criteria include:
-- Length (between 8-128 characters)
-Types of Characters:
-- Numbers
-- Special Characters
-- Lowercase Characters
-- Uppercase Characters
-
+This release shows you your work day by hour and allows you to add notes or specific appointment data in the hourly blocks. When you have noted what you want, you hit "save" to keep that information. (If you change your mind, delete your note and "save" the cleared field - no accidental deletions!)
 
 ## How?
-A very lightweight and simple combination of html/css/js combined with a straightforward alert-driven question/response interface with the ability to generate as many different versions as you want and copy/paste the ones you want, directly addresses the 'simplicity' requirement noted in the Why section above.
+Using an append statement in JavaScript, the timeblock container is loaded row-by-row, similar to the way a password might be built from several different character type selections, rather than in separate hourly code blocks. This serves to streamline and simplify the code base. Moment.js is used to grab current time information.
 
 
 ## What else do I need to know?
-Thanks for asking! Something helpful built into this generator is a collection of feedback alerts associated with the "password length" request. If the entry does not meet the criteria (too short, too long, nothing or not a number), clarification alerts appear and bring you back to the start page. Overall, this meets the need for the simple complex life. Cheers!
+The Easy Work Day Scheduler also keeps track of the time during the day and shows different colors based on where you are during the day (past hours are grey, present is red and future are green). (The screenshot below shows grey hours because of the time of day it was taken - but, the colors really do work!) Cheers!
 
 ## Installation
 Great news! Simply launch the page associated with the repo to view and use this code:
@@ -33,14 +26,14 @@ Deployed Page:  https://dtmerrill.github.io/HW3-DTM-Password_Generator/
 
 ## Usage
 
-Just click the big, red "Generate Password" button to start on the path.
+Just click and type to enter text and click the blue "save" button to interface with the page.
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
+![The layout is calm and pleasing to the eye.](./assets/images/work-day-sched-screenshot.png)
 
 
 
 ## Credits
-I worked on this with some base code from my Boot Camp (Trilogy Education Services) but the cool stuff is mine.
+Some base code from my Boot Camp (Trilogy Education Services).
 
 ## License
 MIT License
