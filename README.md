@@ -20,9 +20,9 @@ The Easy Work Day Scheduler also keeps track of the time during the day and show
 ## Installation
 Great news! Simply launch the page associated with the repo to view and use this code:
 
-Repo:  https://github.com/dtmerrill/HW3-DTM-Password_Generator
+Repo:  https://github.com/dtmerrill/work-day-sched-made-easy
 
-Deployed Page:  https://dtmerrill.github.io/HW3-DTM-Password_Generator/
+Deployed Page:  https://dtmerrill.github.io/work-day-sched-made-easy/
 
 ## Usage
 
