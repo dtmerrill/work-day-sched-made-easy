@@ -4,7 +4,7 @@
 
 
 ## Why?
-At-A-Glance information. Simple, click interface. As previously discussed, we need to simplify our lives and one of the easiest ways to accomplish that goal is to take our schedules out of our heads and put them down on screens.
+At-A-Glance information. Simple click interface. We need to simplify our lives and one of the easiest ways to accomplish that goal is to take our schedules out of our heads and put them down on screens.
 
 
 ## What?

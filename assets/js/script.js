@@ -2,7 +2,7 @@
 //  2 - hours container information and label tie to local storage
 //  3 - Used "append" in the timeblock container based off the way the password elements appended in the first JS exercise. This loads the timeblock rows and save button
 //  4 - Ties the timeblock colors to the current time test to give past/present/future states
-//  5 - Save button stores text from timeblock in local storage
+//  5 - Save button stores input from timeblock in local storage
 
 //  1 - date/time information from moment
 var currentDate = moment().format('dddd, MMMM Do YYYY');
@@ -50,9 +50,9 @@ function showTimeBlockHours() {
             // `);
             // }}}
 
-//  3 - (continued) Loads the timeblock rows and save button
+//  3 - Loads the timeblock rows and save button
     timeBlockHours.append (`
-        <div class="row " id="row + ${i+11}">
+        <div class="row" id="row + ${i+11}">
         <div class="col-md-2"> ${tbHourLabel[i]}</div>
         <textarea id="${i+11}"class="time-row col-md-9"></textarea>
         <button class="col-md-1 btn saveBtn">save</button>
@@ -61,7 +61,7 @@ function showTimeBlockHours() {
 
     } else {
     timeBlockHours.append (`
-        <div class="row " id="row + ${i+11}">
+        <div class="row" id="row + ${i+11}">
         <div class="col-md-2"> ${tbHourLabel[i]}</div>
         <textarea id="${i+11}"class="time-row col-md-9">
         ${localStorage.getItem(i+11)}</textarea>
@@ -85,5 +85,10 @@ function updCurrentTimeblock(){
 }}}
 updCurrentTimeblock();
 
-//  5 - Save button stores text from timeblock in local storage
+//  5 - Save button stores input from timeblock in local storage
+    $(".saveBtn").on("click", function(){
+        var tbHour = $(this).siblings("textarea").attr("id")
+        var tbInputComment = $(this).siblings("textarea").val()
 
+    localStorage.setItem(tbHour, tbInputComment)
+})
